@@ -1,18 +1,21 @@
-import Vue from "vue";
-import Router from "vue-router";
+import { createRouter, createWebHistory } from "vue-router";
 import HomeView from "@/views/HomeView.vue";
 import AboutView from "@/views/AboutView.vue";
 import ProjectsView from "@/views/ProjectsView.vue";
 import ContactView from "@/views/ContactView.vue";
+import BlogView from "@/views/BlogView.vue";
 
-Vue.use(Router);
+const routes = [
+  { path: "/", name: "HomeView", component: HomeView },
+  { path: "/about", name: "AboutView", component: AboutView },
+  { path: "/projects", name: "ProjectsView", component: ProjectsView },
+  { path: "/contact", name: "ContactView", component: ContactView },
+  { path: "/blog", name: "BlogView", component: BlogView },
+];
 
-export default new Router({
-  mode: "history",
-  routes: [
-    { path: "/", component: HomeView },
-    { path: "/about", component: AboutView },
-    { path: "/projects", component: ProjectsView },
-    { path: "/contact", component: ContactView },
-  ],
+const router = createRouter({
+  history: createWebHistory(process.env.BASE_URL),
+  routes,
 });
+
+export default router;
