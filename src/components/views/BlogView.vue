@@ -1,19 +1,30 @@
 <template>
   <div
-    class="w-full h-16 flex items-center justify-center text-lg dark:bg-black dark:text-white"
+    class="w-full flex-col items-center justify-center text-lg dark:bg-black dark:text-white"
   >
-    <h1>Blog</h1>
-    <CardObject />
+    <div class="flex flex-wrap">
+      <CardObject
+        v-for="cardData in blogPosts"
+        :key="cardData.title"
+        :cardData="cardData"
+      />
+    </div>
   </div>
 </template>
 
 <script>
 import CardObject from "../objects/CardObject.vue";
+import blogPosts from "@/blog/blogPosts";
 
 export default {
   name: "BlogView",
   components: {
     CardObject,
+  },
+  data() {
+    return {
+      blogPosts,
+    };
   },
 };
 </script>
