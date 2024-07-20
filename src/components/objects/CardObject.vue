@@ -1,10 +1,14 @@
 <template>
   <div class="max-w-lg mx-auto p-5">
     <div
-      class="bg-white dark:bg-black shadow-md border border-gray-200 dark:border-gray-700 rounded-lg max-w-sm mb-5"
+      class="bg-white dark:bg-black shadow-md dark:shadow-transparent border border-gray-200 dark:border-gray-700 rounded-lg max-w-sm mb-5"
     >
       <a href="#">
-        <img class="rounded-t-lg" :src="cardData.imgLink" alt="" />
+        <img
+          class="rounded-t-lg"
+          :src="`/images/blog-images/${cardData.imgLink}`"
+          alt=""
+        />
       </a>
       <div class="p-5">
         <a href="#">

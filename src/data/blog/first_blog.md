@@ -1,4 +1,4 @@
-# First Blog Example
+# Blog Post
 
 ## Introduction
 

@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="w-full h-80 flex flex-col items-center justify-center text-sm text-gray-600 bg-white dark:bg-black dark:text-gray-300"
+    class="w-full min-h-screen flex flex-col items-center justify-center text-sm text-gray-600 bg-white dark:bg-black dark:text-gray-300"
   >
     <p class="mb-2">&copy; 2024 Bryce McWhirter. All rights reserved.</p>
     <div class="flex space-x-4">

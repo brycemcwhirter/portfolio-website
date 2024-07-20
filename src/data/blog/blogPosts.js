@@ -2,14 +2,14 @@ const blogPosts = [
   {
     title: "Title",
     headliner: "Test Value for Headliner",
-    imgLink: "../../../public/blog-images/image-link.jpg",
-    blogLink: "blogLink",
+    imgLink: "image-link.jpg",
+    blogLink: "blog/first_blog",
   },
   {
     title: "Another Title",
     headliner: "Another Test Value for Headliner",
-    imgLink: "../../../public/blog-images/image-link.jpg",
-    blogLink: "anotherBlogLink",
+    imgLink: "image-link.jpg",
+    blogLink: "blog/anotherBlogLink",
   },
   // Add more blog post objects as needed
 ];

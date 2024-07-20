@@ -14,7 +14,7 @@
 
 <script>
 import CardObject from "../objects/CardObject.vue";
-import blogPosts from "@/blog/blogPosts";
+import blogPosts from "@/data/blog/blogPosts";
 
 export default {
   name: "BlogView",
