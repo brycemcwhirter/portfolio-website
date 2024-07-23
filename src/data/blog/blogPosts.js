@@ -3,13 +3,13 @@ const blogPosts = [
     title: "Title",
     headliner: "Test Value for Headliner",
     imgLink: "image-link.jpg",
-    blogLink: "blog/first_blog",
+    blogLink: "www.google.com",
   },
   {
     title: "Another Title",
     headliner: "Another Test Value for Headliner",
     imgLink: "image-link.jpg",
-    blogLink: "blog/anotherBlogLink",
+    blogLink: "www.google.com",
   },
   // Add more blog post objects as needed
 ];
