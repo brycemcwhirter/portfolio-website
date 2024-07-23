@@ -5,12 +5,14 @@ import ProjectsView from "@/components/views/ProjectsView.vue";
 import ContactView from "@/components/views/ContactView.vue";
 import BlogView from "@/components/views/BlogView.vue";
 import FourOFour from "@/components/views/FourOFour.vue";
+import ResumeView from "@/components/views/ResumeView.vue";
 
 const routes = [
   { path: "/", name: "HomeView", component: HomeView },
-  { path: "/about", name: "AboutView", component: AboutView },
+  // { path: "/about", name: "AboutView", component: AboutView },
   { path: "/projects", name: "ProjectsView", component: ProjectsView },
   { path: "/contact", name: "ContactView", component: ContactView },
+  { path: "/resume", name: "ResumeView", component: ResumeView },
   { path: "/blog", name: "BlogView", component: BlogView },
   { path: "/404", name: "FourOFourView", component: FourOFour },
 ];

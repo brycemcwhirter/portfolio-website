@@ -9,11 +9,17 @@
         >
           <a aria-label="Home" href="/">Bryce McWhirter</a>
           <div class="hidden lg:flex lg:gap-10">
-            <a
+            <!-- <a
               class="relative -mx-3 -my-2 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 dark:hover:text-gray-300 hover:text-gray-900 hover:delay-0 dark:text-white"
               href="/about"
             >
               <span class="relative z-10">About</span>
+            </a> -->
+            <a
+              class="relative -mx-3 -my-2 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 dark:hover:text-gray-300 hover:text-gray-900 hover:delay-0 dark:text-white"
+              href="/resume"
+            >
+              <span class="relative z-10">Resumé</span>
             </a>
             <a
               class="relative -mx-3 -my-2 rounded-lg px-3 py-2 text-sm text-gray-700 transition-colors delay-150 dark:hover:text-gray-300 hover:text-gray-900 hover:delay-0 dark:text-white"
