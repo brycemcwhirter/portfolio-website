@@ -1,14 +1,17 @@
 <template>
-  <div
-    class="w-full h-16 flex items-center justify-center text-lg dark:bg-black dark:text-white"
-  >
+  <PageWrapper>
     <h1>Resumé</h1>
-  </div>
+  </PageWrapper>
 </template>
 
 <script>
+import PageWrapper from "../layout/PageWrapper.vue";
+
 export default {
   name: "ResumeView",
+  components: {
+    PageWrapper,
+  },
 };
 </script>
 

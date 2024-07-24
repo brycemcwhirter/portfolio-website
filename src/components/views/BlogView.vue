@@ -1,7 +1,5 @@
 <template>
-  <div
-    class="w-full flex-col items-center justify-center text-lg dark:bg-black dark:text-white"
-  >
+  <PageWrapper>
     <div class="flex flex-wrap">
       <CardObject
         v-for="cardData in blogPosts"
@@ -9,10 +7,11 @@
         :cardData="cardData"
       />
     </div>
-  </div>
+  </PageWrapper>
 </template>
 
 <script>
+import PageWrapper from "../layout/PageWrapper.vue";
 import CardObject from "../objects/CardObject.vue";
 import blogPosts from "@/data/blog/blogPosts";
 
@@ -20,6 +19,7 @@ export default {
   name: "BlogView",
   components: {
     CardObject,
+    PageWrapper,
   },
   data() {
     return {

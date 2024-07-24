@@ -1,6 +1,6 @@
 <template>
   <PageWrapper>
-    <div class="min-h-screen flex justify-center">
+    <div class="relative z-5 min-h-screen flex justify-center">
       <div class="w-1/2 flex justify-center">
         <img
           src="@/assets/home-images/HomePhoto.jpeg"
