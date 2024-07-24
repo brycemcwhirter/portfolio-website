@@ -1,31 +1,28 @@
 <template>
-  <div
-    class="w-full min-h-screen flex items-center p-8 justify-center text-lg dark:bg-black dark:text-white"
-  >
-    <div class="w-1/3 flex justify-center">
-      <img
-        src="@/assets/home-images/HomePhoto.jpeg"
-        alt="Profile Photo"
-        class="rounded-full h-48 w-48 object-cover"
-      />
+  <PageWrapper>
+    <div class="min-h-screen flex justify-center">
+      <div class="w-1/2 flex justify-center">
+        <img
+          src="@/assets/home-images/HomePhoto.jpeg"
+          alt="Profile Photo"
+          class="rounded-full h-48 w-48 object-cover"
+        />
+      </div>
+      <div class="w-1/2 px-6">
+        <h1 class="text-3xl font-bold mb-4">Hey! My name is Bryce McWhirter</h1>
+        <p class="text-base">I'm a software developer based in the DFW area.</p>
+      </div>
     </div>
-    <div class="w-2/3 px-6">
-      <h1 class="text-3xl font-bold mb-4">
-        Hey! Thanks for stopping by! &#128513;
-      </h1>
-      <p class="text-base">
-        I'm Bryce McWhirter, a passionate developer with a love for creating
-        amazing web experiences. Check out my projects and blog to learn more
-        about what I do. Feel free to get in touch if you have any questions or
-        just want to say hi!
-      </p>
-    </div>
-  </div>
+  </PageWrapper>
 </template>
 
 <script>
+import PageWrapper from "../layout/PageWrapper.vue";
 export default {
   name: "HomeView",
+  components: {
+    PageWrapper,
+  },
 };
 </script>
 

@@ -1,13 +1,13 @@
 <template>
   <div id="app">
-    <AppHeader />
-    <!-- Include your AppHeader component -->
+    <!-- <AppHeader />
+    Include your AppHeader component -->
 
     <router-view />
     <!-- This is where the router will render the current route's component -->
-
+    <!-- 
     <AppFooter />
-    <!-- Include your AppFooter component -->
+    Include your AppFooter component -->
   </div>
 </template>
 
@@ -18,10 +18,10 @@ import AppFooter from "./components/layout/AppFooter.vue";
 
 export default {
   name: "App",
-  components: {
-    AppHeader,
-    AppFooter,
-  },
+  // components: {
+  //   AppHeader,
+  //   AppFooter,
+  // },
 };
 </script>
 
